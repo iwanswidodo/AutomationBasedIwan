@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="StaffincTest" thread-count="1" parallel="tests"
+       data-provider-thread-count="1" group-by-instances="true">
+<!--    <listeners>-->
+<!--        <listener class-name="StepDef.Integrations.Listener.CustomListener"/>-->
+<!--    </listeners>-->
+
+<!--Cucumber Version-->
+    <test name="runner.CucumberRunnerTests">
+        <classes>
+        <class name="runner.CucumberRunnerTests"></class>
+        </classes>
+    </test>
+
+<!--TestNG Version-->
+    <test name="RunSearchJob">
+        <classes>
+            <class name="StepDef.FE.test.RunSearchJob"></class>
+        </classes>
+    </test>
+<!--BE Test-->
+    <test name="BETest">
+        <classes>
+            <class name="StepDef.BE.BETest"></class>
+        </classes>
+    </test>
+</suite> <!-- Suite -->

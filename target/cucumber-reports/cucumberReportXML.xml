@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="60.924" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Find Bandung City" name="User find occupation in Bandung City" time="43.234">
+<system-out><![CDATA[
+Given As a user already on homepage.........................................passed
+When User click Search button...............................................passed
+And user click lokasi pekerjaan button......................................passed
+And User search province Jawa Barat.........................................passed
+And User Search Kota Bandung................................................passed
+And User Click simpan button................................................passed
+And Click Lihat semua Button................................................passed
+Then As a user should be to see result filter Bandung City..................passed
+]]></system-out>
+</testcase>
+</testsuite>
